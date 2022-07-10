@@ -1,0 +1,13 @@
+dbt-postgres:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: dwh_crc
+      schema: public
+      threads: 3
+      keepalives_idle: 0
