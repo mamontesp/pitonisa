@@ -1,13 +1,13 @@
-dbt-postgres:
+pitonisa:
   target: dev
   outputs:
     dev:
       type: postgres
-      host: postgres
+      host: 0.0.0.0
       user: postgres
       password: postgres
       port: 5432
       dbname: dwh_crc
-      schema: public
+      schema: dwh
       threads: 3
       keepalives_idle: 0

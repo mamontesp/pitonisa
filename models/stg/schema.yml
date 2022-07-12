@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: subscribers_internet_mobile
+    description: "Staging table for internet subscribers mobile connection on demand"
+    columns:
+      - name: year
+        description: "year of the measurement"
+        tests:
+          - not_null
+  - name: subscribers_voice_mobile
+    description: "Staging table for voice subscribers mobile connection on demand"
+    columns:
+      - name: year
+        description: "year of the measurement"
+        tests:
+          - not_null
