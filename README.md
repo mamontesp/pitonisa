@@ -18,7 +18,9 @@ psql -h 0.0.0.0 -U postgres
 - Descargar el repositorio de airbyte https://github.com/airbytehq/airbyte y levantar el servicio:
 
 `git clone https://github.com/airbytehq/airbyte.git
+
 cd airbyte
+
 docker-compose up
 `
 - Ir a la sección de settings en Airbyte (tuerca, lateral derecha abajo). 
