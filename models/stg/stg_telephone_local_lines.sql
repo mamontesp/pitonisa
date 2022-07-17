@@ -13,5 +13,5 @@ _airbyte_data::json->>'ID_DEPARTAMENTO' as department_id,
 _airbyte_data::json->>'DEPARTAMENTO' as department,
 _airbyte_data::json->>'ID_UBICACION' as location_id,
 _airbyte_data::json->>'UBICACION' as location,
-_airbyte_data::json->>'LINEAS' as ct_lines
+cast(_airbyte_data::json->>'LINEAS' as BIGINT) as ct_lines
 from raw._airbyte_raw_local_telephone_lines

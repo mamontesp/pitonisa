@@ -1,0 +1,42 @@
+IMT meaning: internation mobile telecommunications
+
+The (time and space) subscriber behaviour 
+including the subscriber’s geographical
+distribution, moving behaviour and application usage behaviour: It will impact on the space-
+and time-domain traffic behaviour, leading to non-uniformly distributed traffic volume and
+traffic asymmetry.
+
+6 Rep. ITU-R M.2370-0
+TABLE 1
+Approaches to cope with traffic increase
+
+Spectrum availability Amount of spectrum used by radio interface.
+Technical enhancements: Migration to innovative, more efficient techniques such as new radio interfaces, codec improvements, use of multicast and reduction in energy consumption.
+New network structure/topology: Number of radio sites and smaller cell sizes.
+Offloading traffic: Off-loading of traffic onto licence-exempt frequencies frees up capacity in the macro network layer
+
+Pag 9. Cities will evolve, and future policies being applied to communication networks operations, including
+the necessary spectrum regulation, to a great extent, will be defined by the large cities.
+
+Pag 9. City planners need to address environmental issues, climate change, poverty and illiteracy. In
+addition, there is a need to provide intelligent transport solutions, and speed up the flow of people,
+goods and services which will in turn reduce fuel consumption. Smart grids can increase energy
+efficiency, enable more renewable energy sources and support the widespread deployment of electric
+cars. All of these can be supported by the deployment of broadband mobile telecommunications
+networks
+
+Pag 9. In conclusion, future mobile broadband traffic growth is likely to be driven by the growth of large cities. 
+
+
+Pag 15. Estimation of global M2M subscriptions
+Estimation methods and procedures
+Estimation methods used were based on the following steps:
+a) Statistical data collection on global population, M2M connections and penetration ratio,
+b) Estimate the increase of global population,
+c) Estimate the penetration ratio of global M2M connections to global population through
+S-curve (see Annex 1),
+d) Calculation of the number of M2M connections by global population and the penetration
+ratio of global M2M connections
+
+
+Pag 21. It is estimated that each subscriber will consume 39.4 GB of data traffic per month in 2025 in average and this amount will be around 257 GB in 2030

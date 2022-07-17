@@ -34,9 +34,16 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   pitonisa:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    base:
+      +materialized: table
+      schema: base
     stg:
       +materialized: table
       schema: stg
+    lku:
+      +materialized: table
+      schema: lku
+    rpt:
+      +materialized: table
+      schema: rpt
 

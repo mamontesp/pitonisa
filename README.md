@@ -49,6 +49,12 @@ psql -h 0.0.0.0 -U postgres
 - Instalar las dependencias del proyecto. Asegurarse de estar en la raíz del proyecto
 `pip install -r requirements.txt`
 
+- Instalar los paquetes de dbt para ejecutar las transformaciones
+` dbt deps`
+
+### Cómo correr los modelos?
+- Correr este comando desde la raíz del repositorio:
+`export DBT_PROFILES_DIR=$pwd`
 - Para correr las primeras transformaciones ejecuta el siguiente comando:
 `dbt run --models dwh_stg`
 
@@ -62,8 +68,6 @@ psql -h 0.0.0.0 -U postgres
 ` subscribers_tv`
 ` subscribers_voice_mobile`
 ` traffic_messaging_mobile`
-
-
 
 ### Recursos:
 - Definición de los términos de la convocatoria [aquí](https://postdata.gov.co/datajam-crc-2022)
