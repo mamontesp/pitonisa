@@ -3,3 +3,12 @@ systemctl stop postgresql
 
 change dbt profile path
 export DBT_PROFILES_DIR=$pwd
+
+Install plotgeo / cartopy
+https://stackoverflow.com/questions/72442087/cant-install-proj-8-0-0-for-cartopy-linux
+
+cartopy does not look for libproj.so.22 in /usr/local/lib
+https://github.com/SciTools/cartopy/issues/1966
+
+export csv from psql
+https://dataschool.com/learn-sql/export-to-csv-from-psql/
