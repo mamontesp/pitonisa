@@ -12,3 +12,6 @@ https://github.com/SciTools/cartopy/issues/1966
 
 export csv from psql
 https://dataschool.com/learn-sql/export-to-csv-from-psql/
+
+Copiar un resultado desde psql a un archivo csv
+\copy (select * from dwh.analytics_capacity_cali_telmex) to /media/andreamontes/DATA/Personal/Sandbox/Projects/CRC/pitonisa/output/cali_telmex_per_socioeconomic_level_example.csv CSV HEADER

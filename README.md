@@ -21,7 +21,7 @@ psql -h 0.0.0.0 -U postgres
 2. `cd airbyte`
 3. `docker-compose up`
 
-- Ir a la sección de settings en Airbyte (tuerca, lateral derecha abajo). 
+- Ir a la sección de settings en Airbyte (tuerca, lateral izquierda abajo). 
 - Ir a Configuration
 - Click en import configuration
 - Seleccionar el archivo config_airbyte.gz ubicado en la raíz de este repositorio.
@@ -56,7 +56,7 @@ psql -h 0.0.0.0 -U postgres
 - Correr este comando desde la raíz del repositorio:
 `export DBT_PROFILES_DIR=$pwd`
 - Para correr las primeras transformaciones ejecuta el siguiente comando:
-`dbt run --models dwh_stg`
+`dbt run --models stg`
 
 - Verifica que las siguientes tablas existan en el esquema dwh_stg
 `fixed_internet_2010_2017`
@@ -69,7 +69,22 @@ psql -h 0.0.0.0 -U postgres
 ` subscribers_voice_mobile`
 ` traffic_messaging_mobile`
 
+- Para correr los modelos lku
+`dbt run --models lku`
+
+- Para correr los modelos rpt
+`dbt run --models rpt`
+
+- Para correr las consultas de análitica
+`dbt run --models analytics`
+
+- Más estrategias de ejecución revisar la documentación de [dbt](https://docs.getdbt.com/docs/building-a-dbt-project/documentation)
+
 ### Recursos:
 - Definición de los términos de la convocatoria [aquí](https://postdata.gov.co/datajam-crc-2022)
+- Incluimos una breve revisión bibliográfica en la carpeta /pitonisa/research
+
+### Troubleshooting:
+- Algunos comandos fueron incluidos en el archivo /pitonisa/troubleshooting/commands_for_special_actions.
 
 
