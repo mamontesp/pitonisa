@@ -1,5 +1,5 @@
 select 
-distinct company_name,
+distinct company_id,
 year, 
 quarter,
 'internet' as service,
